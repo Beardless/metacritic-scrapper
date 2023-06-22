@@ -12,10 +12,13 @@ Game Scraper is a command-line interface (CLI) tool that uses web scraping to fe
 
 4. Run the following command to install the required dependencies:
 
+```console
 npm install
+```
 
+```console
 bash
-Copy code
+```
 
 ## Usage
 
@@ -25,28 +28,25 @@ To use the Game Scraper, follow these steps:
 
 2. Run the following command:
 
-node game-scraper.js "Game Title"
-
-vbnet
-Copy code
+```console
+node . "Game Title"
+```
 
 Replace `"Game Title"` with the title of the game you want to search for.
 
 Example:
 
-node game-scraper.js "Elden Ring"
+```console
+node . "Mafia 3"
+```
 
-css
-Copy code
-
-3. The tool will scrape the data from Metacritic and display a single row of the table with the relevant information for the specified game title.
+1. The tool will scrape the data from Metacritic and display a single row of the table with the relevant information for the specified game title.
 
 Example output:
 
-Title	Genre	Metacritic Score	Have Co-op?	Hours to Complete
-Elden Ring	Action, RPG	94	No	50
-vbnet
-Copy code
+```console
+| Mafia: Definitive Edition | 78 | null | ❌ |
+```
 
 If the game is not found, it will display the message "Game not found."
 
@@ -61,3 +61,6 @@ If the game is not found, it will display the message "Game not found."
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+### Author
+Bartłomiej Mikołajczuk - [GitHub](github.com/beardless) - [Twitter](twitter.com/beardless_dev](https://twitter.com/beardlesSole47))
