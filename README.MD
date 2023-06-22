@@ -12,12 +12,8 @@ Game Scraper is a command-line interface (CLI) tool that uses web scraping to fe
 
 4. Run the following command to install the required dependencies:
 
-```console
+```bash
 npm install
-```
-
-```console
-bash
 ```
 
 ## Usage
@@ -28,7 +24,7 @@ To use the Game Scraper, follow these steps:
 
 2. Run the following command:
 
-```console
+```bash
 node . "Game Title"
 ```
 
@@ -36,7 +32,7 @@ Replace `"Game Title"` with the title of the game you want to search for.
 
 Example:
 
-```console
+```bash
 node . "Mafia 3"
 ```
 
@@ -44,7 +40,7 @@ node . "Mafia 3"
 
 Example output:
 
-```console
+```bash
 | Mafia: Definitive Edition | 78 | null | ❌ |
 ```
 
